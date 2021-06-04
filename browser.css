@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=EB+Garamond&display=swap');
 body {
   font-family: Arial;
   margin-bottom: 5%;
@@ -93,5 +94,7 @@ input[type=text] {
     margin-bottom: 10%;
   }
 
-
+#last{
+  visibility: none;
+}
 }
