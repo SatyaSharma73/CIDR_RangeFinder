@@ -1,0 +1,78 @@
+.box {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.info_sec {
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-family: 'Amiri', serif;
+  color: black;
+}
+
+.panel {
+  text-align: center;
+}
+
+.panel_button {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.pp {
+  color: black;
+}
+
+.input_box {
+  width: 25%;
+  color: #aaa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+}
+
+h3 {
+  font-family: 'EB Garamond', serif;
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+}
+
+.answer {
+  margin-top: 2%;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i {
+  color: white;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
+
+.social {
+  margin: 5px;
+}
