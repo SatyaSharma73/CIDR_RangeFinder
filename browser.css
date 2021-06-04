@@ -87,3 +87,11 @@ input[type=text] {
 .content {
   padding: 5px;
 }
+@media (max-width:1000px) {
+  body {
+    font-family: Arial;
+    margin-bottom: 10%;
+  }
+
+
+}
