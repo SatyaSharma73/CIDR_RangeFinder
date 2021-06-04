@@ -1,5 +1,6 @@
 body {
-  font-family: Arial
+  font-family: Arial;
+  margin-bottom: 5%;
 }
 
 * {
@@ -8,7 +9,7 @@ body {
 
 /* The browser window */
 .container {
-  
+
   border: 3px solid #f1f1f1;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -21,7 +22,12 @@ body {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
+.row2 {
 
+  padding-top: 10px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;

@@ -24,7 +24,7 @@
         <span class="dot" style="background:#5AC05A;"></span>
       </div>
       <div class="column middle">
-        <input type="text" value="https://github.com/SatyaSharma73/CIDR_RangeFinder">
+        <input type="text" readonly value="https://github.com/SatyaSharma73/CIDR_RangeFinder">
       </div>
       <div class="column right">
         <div style="float:right">
@@ -46,29 +46,22 @@
           an IP addressing scheme that replaces the older system based on classes A, B, and C.
           A single IP address can be used to designate many unique IP addresses with CIDR.
           A CIDR IP address looks like a normal IP address except that it ends with a slash followed by a number,
-          called the IP network prefix. CIDR addresses reduce the size of routing tables and make more IP addresses available within organizations.</p>
+          called the IP network prefix.</p>
       </div>
 
 
       <form id="myForm" action="index.html">
         <div class="panel g-3 align-items-center">
-          <div class="col-auto">
-            <label for="inputPassword6" class="col-form-label">Enter Classless IP Address</label>
+
+          <div class="input_box mb-3 row2">
+            <input type="text" id="cidr" value="" placeholder="Enter Classless IP Address Eg.10.0.0.0/24" class="form-control-plaintext" maxlength="18" required>
           </div>
-          <div class="input_box">
-            <input type="text" id="cidr" class="i_p" value="" placeholder="                       10.0.0.0/24" class="form-control" maxlength="18" required>
-          </div>
-          <div class="col-auto">
-            <span id="passwordHelpInline" class="war">
-              Max Length Must Be 18.
-            </span>
-          </div>
+
           <div class="panel_button">
             <button type="submit" onclick="compute()" class="button btn btn-primary">Submit</button>
           </div>
-        </div>
-      </form>
 
+      </form>
 
     </div>
 
